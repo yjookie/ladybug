@@ -1,0 +1,159 @@
+using device: cuda:0
+dt: 0.009999999776482582
+[34m[1mwandb[39m[22m: [33mWARNING[39m Found log directory outside of given root_logdir, dropping given root_logdir for event file in /home/drj/workspaces/runs/quad__ppo_continuous_action__1__1717744130
+Not connected to PVD
++++ Using GPU PhysX
+Physics Engine: PhysX
+Physics Device: cuda:0
+GPU Pipeline: enabled
+ CREATING ENVIRONMENT
+Total robot mass:  1.9399999752640724
+ ENVIRONMENT CREATED
+num actions:  4
+num obs:  13
+self.counter: 0
+SPS: 9251
+SPS: 14636
+SPS: 18136
+[91m[1m[Error] [carb.windowing-glfw.plugin] GLFW initialization failed.
+[91m[1m[Error] [carb.windowing-glfw.plugin] GLFW window creation failed!
+[91m[1m[Error] [carb.gym.plugin] Failed to create Window in CreateGymViewerInternal
+SPS: 20598
+SPS: 21667
+SPS: 23099
+SPS: 24274
+SPS: 25239
+SPS: 26078
+SPS: 26740
+SPS: 27256
+SPS: 27778
+SPS: 28250
+SPS: 28176
+SPS: 28538
+global_step=123392, episodic_return=925.6751708984375
+self.counter: 250
+SPS: 28879
+global_step=131584, episodic_return=995.669921875
+global_step=132096, episodic_return=982.5137329101562
+SPS: 29164
+global_step=140800, episodic_return=1063.6552734375
+SPS: 29425
+global_step=147968, episodic_return=1122.787841796875
+global_step=148480, episodic_return=1108.4998779296875
+global_step=148992, episodic_return=1130.9189453125
+SPS: 29693
+global_step=156160, episodic_return=1177.90234375
+global_step=156672, episodic_return=1196.859130859375
+global_step=157184, episodic_return=1183.196044921875
+SPS: 29914
+global_step=164352, episodic_return=1245.3006591796875
+global_step=164864, episodic_return=1242.93798828125
+global_step=165376, episodic_return=1254.474609375
+SPS: 30138
+global_step=172544, episodic_return=1314.801025390625
+global_step=173056, episodic_return=1295.8255615234375
+global_step=173568, episodic_return=1315.91259765625
+SPS: 30140
+global_step=180736, episodic_return=1367.75439453125
+global_step=181248, episodic_return=1374.3121337890625
+global_step=181760, episodic_return=1373.8624267578125
+SPS: 30310
+global_step=188928, episodic_return=1434.12109375
+global_step=189440, episodic_return=1442.02099609375
+global_step=189952, episodic_return=1436.0147705078125
+SPS: 29960
+global_step=197120, episodic_return=1495.5054931640625
+global_step=197632, episodic_return=1502.4544677734375
+global_step=198144, episodic_return=1502.0736083984375
+SPS: 30123
+global_step=205312, episodic_return=1556.26513671875
+global_step=205824, episodic_return=1558.736083984375
+global_step=206336, episodic_return=1559.4412841796875
+SPS: 30293
+global_step=213504, episodic_return=1622.465087890625
+global_step=214528, episodic_return=1607.4124755859375
+SPS: 30456
+global_step=222208, episodic_return=1682.65234375
+global_step=222720, episodic_return=1671.663330078125
+SPS: 30603
+global_step=229888, episodic_return=1757.51806640625
+global_step=230912, episodic_return=1754.022705078125
+SPS: 30715
+global_step=238080, episodic_return=1820.044921875
+SPS: 30815
+SPS: 30914
+global_step=255488, episodic_return=1942.823974609375
+self.counter: 500
+SPS: 30990
+global_step=262656, episodic_return=858.4658203125
+global_step=263680, episodic_return=846.1154174804688
+SPS: 31075
+global_step=270848, episodic_return=1049.5067138671875
+global_step=271360, episodic_return=871.8488159179688
+global_step=271872, episodic_return=960.46875
+SPS: 31123
+global_step=279040, episodic_return=931.1842041015625
+global_step=280064, episodic_return=868.8091430664062
+SPS: 31118
+global_step=287232, episodic_return=1003.865966796875
+global_step=287744, episodic_return=1056.900146484375
+global_step=288256, episodic_return=993.6787109375
+SPS: 30545
+global_step=295424, episodic_return=1111.000244140625
+global_step=295936, episodic_return=988.719482421875
+global_step=296448, episodic_return=908.9331665039062
+SPS: 30512
+global_step=303616, episodic_return=1174.617919921875
+global_step=304640, episodic_return=825.912109375
+SPS: 30488
+global_step=311808, episodic_return=1088.062255859375
+global_step=312320, episodic_return=1046.110595703125
+global_step=312832, episodic_return=1121.4007568359375
+SPS: 30434
+global_step=320000, episodic_return=964.1163330078125
+global_step=320512, episodic_return=1200.2303466796875
+global_step=321024, episodic_return=1082.18994140625
+SPS: 30401
+global_step=328192, episodic_return=998.1052856445312
+global_step=328704, episodic_return=1139.4066162109375
+SPS: 30382
+global_step=336384, episodic_return=1323.7962646484375
+global_step=336896, episodic_return=1030.328125
+global_step=337408, episodic_return=995.0069580078125
+SPS: 30339
+global_step=344576, episodic_return=944.77197265625
+global_step=345088, episodic_return=936.0368041992188
+global_step=345600, episodic_return=1106.42138671875
+SPS: 30336
+global_step=352768, episodic_return=1271.9149169921875
+global_step=353280, episodic_return=1022.6954956054688
+SPS: 30373
+global_step=360960, episodic_return=944.3700561523438
+global_step=361472, episodic_return=1510.4898681640625
+global_step=361984, episodic_return=1434.87841796875
+SPS: 30365
+global_step=369152, episodic_return=1062.37158203125
+SPS: 30378
+global_step=377344, episodic_return=864.2552490234375
+global_step=377856, episodic_return=703.234375
+self.counter: 750
+SPS: 30425
+global_step=386048, episodic_return=946.4322509765625
+global_step=386560, episodic_return=896.5139770507812
+SPS: 30454
+global_step=393728, episodic_return=1134.0467529296875
+global_step=394240, episodic_return=793.68408203125
+global_step=394752, episodic_return=883.5765991210938
+SPS: 30478
+global_step=401920, episodic_return=790.9523315429688
+global_step=402432, episodic_return=807.41943359375
+global_step=402944, episodic_return=847.3888549804688
+SPS: 30499
+Saving model.
+global_step=410112, episodic_return=1051.6837158203125
+Traceback (most recent call last):
+  File "ppo_continuous_action.py", line 320, in <module>
+    for idx, done in enumerate(next_done):
+  File "/home/drj/.conda/envs/rlgpu/lib/python3.7/site-packages/torch/_tensor.py", line 648, in __iter__
+    return iter(self.unbind(0))
+KeyboardInterrupt

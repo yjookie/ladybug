@@ -1,0 +1,618 @@
+2024-06-07 00:08:51,132 INFO    MainThread:1081683 [internal.py:wandb_internal():93] W&B internal server running at pid: 1081683, started at: 2024-06-07 00:08:51.131948
+2024-06-07 00:08:51,134 INFO    WriterThread:1081683 [datastore.py:open_for_write():75] open: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/run-1c6kg50i.wandb
+2024-06-07 00:08:51,135 DEBUG   SenderThread:1081683 [sender.py:send():236] send: header
+2024-06-07 00:08:51,136 DEBUG   SenderThread:1081683 [sender.py:send():236] send: run
+2024-06-07 00:08:51,282 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: check_version
+2024-06-07 00:08:51,283 INFO    SenderThread:1081683 [dir_watcher.py:__init__():216] watching files in: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files
+2024-06-07 00:08:51,283 INFO    SenderThread:1081683 [sender.py:_start_run_threads():818] run started: 1c6kg50i with start time 1717744130
+2024-06-07 00:08:51,283 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:08:51,283 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:08:51,283 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: check_version
+2024-06-07 00:08:51,322 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: run_start
+2024-06-07 00:08:51,360 DEBUG   HandlerThread:1081683 [meta.py:__init__():35] meta init
+2024-06-07 00:08:51,360 DEBUG   HandlerThread:1081683 [meta.py:__init__():49] meta init done
+2024-06-07 00:08:51,360 DEBUG   HandlerThread:1081683 [meta.py:probe():209] probe
+2024-06-07 00:08:51,372 DEBUG   HandlerThread:1081683 [meta.py:_setup_git():199] setup git
+2024-06-07 00:08:51,386 DEBUG   HandlerThread:1081683 [meta.py:_setup_git():206] setup git done
+2024-06-07 00:08:51,386 DEBUG   HandlerThread:1081683 [meta.py:_save_code():87] save code
+2024-06-07 00:08:51,393 DEBUG   HandlerThread:1081683 [meta.py:_save_code():108] save code done
+2024-06-07 00:08:51,393 DEBUG   HandlerThread:1081683 [meta.py:_save_patches():125] save patches
+2024-06-07 00:08:51,430 DEBUG   HandlerThread:1081683 [meta.py:_save_patches():167] save patches done
+2024-06-07 00:08:51,430 DEBUG   HandlerThread:1081683 [meta.py:_save_pip():53] save pip
+2024-06-07 00:08:51,430 DEBUG   HandlerThread:1081683 [meta.py:_save_pip():67] save pip done
+2024-06-07 00:08:51,431 DEBUG   HandlerThread:1081683 [meta.py:_save_conda():74] save conda
+2024-06-07 00:08:52,285 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_created():269] file/dir created: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/wandb-summary.json
+2024-06-07 00:08:52,286 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_created():269] file/dir created: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/requirements.txt
+2024-06-07 00:08:52,286 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_created():269] file/dir created: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/conda-environment.yaml
+2024-06-07 00:08:52,286 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_created():269] file/dir created: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/diff.patch
+2024-06-07 00:08:52,286 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_created():269] file/dir created: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/code/aerial_gym/rl_training/cleanrl/ppo_continuous_action.py
+2024-06-07 00:08:52,286 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_created():269] file/dir created: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/code/aerial_gym/rl_training/cleanrl
+2024-06-07 00:08:52,286 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_created():269] file/dir created: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/code
+2024-06-07 00:08:52,286 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_created():269] file/dir created: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/code/aerial_gym
+2024-06-07 00:08:52,287 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_created():269] file/dir created: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/code/aerial_gym/rl_training
+2024-06-07 00:08:53,253 DEBUG   HandlerThread:1081683 [meta.py:_save_conda():84] save conda done
+2024-06-07 00:08:53,253 DEBUG   HandlerThread:1081683 [meta.py:probe():247] probe done
+2024-06-07 00:08:53,273 DEBUG   SenderThread:1081683 [sender.py:send():236] send: files
+2024-06-07 00:08:53,273 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2024-06-07 00:08:53,274 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file code/aerial_gym/rl_training/cleanrl/ppo_continuous_action.py with policy now
+2024-06-07 00:08:53,274 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file diff.patch with policy now
+2024-06-07 00:08:53,279 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: stop_status
+2024-06-07 00:08:53,279 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: stop_status
+2024-06-07 00:08:53,282 INFO    HandlerThread:1081683 [handler.py:handle_tbrecord():723] handling tbrecord: tbrecord {
+  log_dir: "/home/drj/workspaces/runs/quad__ppo_continuous_action__1__1717744130"
+  save: true
+}
+
+2024-06-07 00:08:53,283 DEBUG   HandlerThread:1081683 [config_util.py:dict_from_config_file():100] no default config file found in config-defaults.yaml
+2024-06-07 00:08:53,295 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/conda-environment.yaml
+2024-06-07 00:08:53,295 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_created():269] file/dir created: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/wandb-metadata.json
+2024-06-07 00:08:53,295 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_created():269] file/dir created: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/output.log
+2024-06-07 00:08:53,398 DEBUG   SenderThread:1081683 [sender.py:send():236] send: telemetry
+2024-06-07 00:08:53,398 DEBUG   SenderThread:1081683 [sender.py:send():236] send: tbrecord
+2024-06-07 00:08:53,398 DEBUG   SenderThread:1081683 [sender.py:send():236] send: files
+2024-06-07 00:08:53,398 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file events.out.tfevents.1717744133.u117040.1081635.0 with policy live
+2024-06-07 00:08:53,448 INFO    Thread-13 :1081683 [upload_job.py:push():118] Skipped uploading /tmp/tmpz_ubvz4cwandb/1xgtiz3j-code/aerial_gym/rl_training/cleanrl/ppo_continuous_action.py
+2024-06-07 00:08:53,632 INFO    Thread-14 :1081683 [upload_job.py:push():138] Uploaded file /tmp/tmpz_ubvz4cwandb/1tcgr7im-diff.patch
+2024-06-07 00:08:53,655 INFO    Thread-11 :1081683 [upload_job.py:push():138] Uploaded file /tmp/tmpz_ubvz4cwandb/2dctz8te-wandb-metadata.json
+2024-06-07 00:08:53,745 INFO    Thread-16 :1081683 [upload_job.py:push():138] Uploaded file /tmp/tmpz_ubvz4cwandb/8u7npb06-events.out.tfevents.1717744133.u117040.1081635.0
+2024-06-07 00:08:54,295 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_created():269] file/dir created: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/events.out.tfevents.1717744133.u117040.1081635.0
+2024-06-07 00:08:55,295 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/output.log
+2024-06-07 00:08:59,297 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/events.out.tfevents.1717744133.u117040.1081635.0
+2024-06-07 00:09:00,297 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/events.out.tfevents.1717744133.u117040.1081635.0
+2024-06-07 00:09:00,297 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/output.log
+2024-06-07 00:09:01,297 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/events.out.tfevents.1717744133.u117040.1081635.0
+2024-06-07 00:09:02,298 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/events.out.tfevents.1717744133.u117040.1081635.0
+2024-06-07 00:09:02,298 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/output.log
+2024-06-07 00:09:03,298 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/events.out.tfevents.1717744133.u117040.1081635.0
+2024-06-07 00:09:03,361 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,361 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,371 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,371 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,371 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,371 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,371 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,371 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,372 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,372 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,372 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,372 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,372 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,372 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,373 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,373 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,373 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,373 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,373 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,374 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,374 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,374 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,374 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,374 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,375 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,375 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,375 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,375 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,375 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,376 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,376 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,376 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,376 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,376 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,376 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,377 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,377 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,377 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,377 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,377 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,377 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,378 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,378 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,378 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,378 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,378 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,378 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,379 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,379 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,379 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,379 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,379 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,379 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,379 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,380 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,380 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,380 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,380 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,380 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,380 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,380 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,381 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,381 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,381 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,381 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,381 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,381 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,381 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,382 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,382 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,382 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,382 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,382 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,382 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,382 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,383 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,383 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,383 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,383 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,383 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,383 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,383 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,383 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,384 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:03,384 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:03,384 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:03,384 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:04,299 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/events.out.tfevents.1717744133.u117040.1081635.0
+2024-06-07 00:09:04,299 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/output.log
+2024-06-07 00:09:04,299 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/wandb-summary.json
+2024-06-07 00:09:04,386 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:04,386 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:04,391 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:04,391 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:04,391 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:04,392 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:04,392 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:04,392 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:04,392 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:04,392 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:04,392 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:04,392 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:04,393 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:04,393 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:04,393 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:04,393 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:04,393 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:04,393 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:04,393 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:04,394 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:04,394 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:04,394 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:04,394 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:04,394 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:04,394 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:04,394 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:04,395 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:04,395 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:04,395 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:04,395 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:04,395 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:04,395 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:04,396 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:04,396 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:04,396 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:04,396 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:04,396 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:04,396 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:04,396 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:04,396 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:04,397 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:04,397 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:04,397 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:04,397 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:04,397 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:04,397 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:04,397 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:04,398 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:05,299 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/events.out.tfevents.1717744133.u117040.1081635.0
+2024-06-07 00:09:05,299 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/wandb-summary.json
+2024-06-07 00:09:05,406 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:05,406 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:05,410 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:05,410 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:05,411 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:05,411 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:05,411 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:05,411 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:05,411 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:05,411 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:05,412 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:05,412 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:05,412 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:05,412 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:05,412 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:05,412 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:05,412 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:05,413 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:05,413 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:05,413 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:05,413 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:05,413 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:05,413 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:05,413 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:05,414 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:05,414 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:05,414 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:05,414 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:05,414 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:05,414 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:05,415 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:05,415 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:05,415 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:05,415 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:05,415 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:05,415 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:05,415 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:05,415 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:05,416 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:05,416 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:05,416 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:05,416 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:06,299 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/events.out.tfevents.1717744133.u117040.1081635.0
+2024-06-07 00:09:06,300 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/output.log
+2024-06-07 00:09:06,300 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/wandb-summary.json
+2024-06-07 00:09:06,424 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:06,425 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:06,425 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:06,425 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:06,425 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:06,425 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:06,426 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:06,426 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:06,426 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:06,426 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:06,426 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:06,426 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:06,426 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:06,426 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:06,427 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:06,427 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:06,427 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:06,427 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:06,427 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:06,427 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:06,428 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:06,428 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:06,428 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:06,428 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:07,300 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/events.out.tfevents.1717744133.u117040.1081635.0
+2024-06-07 00:09:07,300 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/wandb-summary.json
+2024-06-07 00:09:07,440 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:07,444 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:07,445 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:07,445 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:07,445 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:07,445 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:07,445 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:07,445 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:07,445 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:07,446 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:07,446 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:07,446 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:07,446 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:07,446 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:07,446 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:07,446 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:07,447 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:07,447 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:07,447 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:07,447 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:07,447 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:07,447 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:07,447 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:07,448 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:07,448 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:07,448 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:07,448 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:07,448 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:07,448 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:07,449 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:07,449 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:07,449 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:07,449 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:07,449 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:07,449 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:07,449 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:07,450 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:07,450 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:07,450 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:07,450 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:07,450 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:07,450 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:08,300 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/events.out.tfevents.1717744133.u117040.1081635.0
+2024-06-07 00:09:08,300 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/output.log
+2024-06-07 00:09:08,300 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/wandb-summary.json
+2024-06-07 00:09:08,399 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: stop_status
+2024-06-07 00:09:08,400 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: stop_status
+2024-06-07 00:09:08,522 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:08,523 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:08,523 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:08,523 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:08,523 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:08,524 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:08,524 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:08,524 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:08,524 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:08,524 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:08,525 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:08,525 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:08,525 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:08,525 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:08,525 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:08,525 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:08,526 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:08,526 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:08,526 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:08,526 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:08,526 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:08,527 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:08,527 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:08,527 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:08,527 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:08,527 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:08,527 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:08,528 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:08,528 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:08,528 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:08,528 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:08,528 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:08,529 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:09,301 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/events.out.tfevents.1717744133.u117040.1081635.0
+2024-06-07 00:09:09,301 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/wandb-summary.json
+2024-06-07 00:09:09,473 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:09,474 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:09,478 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:09,479 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:09,479 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:09,479 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:09,479 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:09,479 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:09,479 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:09,479 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:09,480 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:09,480 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:09,480 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:09,480 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:09,480 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:09,480 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:09,480 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:09,480 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:09,480 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:09,480 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:09,480 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:09,481 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:09,481 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:09,481 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:09,481 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:09,481 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:09,481 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:09,481 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:09,481 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:09,481 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:09,481 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:09,481 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:09,482 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:09,482 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:09,482 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:09,482 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:09,482 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:09,482 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:09,483 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:09,483 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:09,483 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:09,483 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:09,483 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:09,483 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:09,483 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:10,301 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/events.out.tfevents.1717744133.u117040.1081635.0
+2024-06-07 00:09:10,301 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/output.log
+2024-06-07 00:09:10,301 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/wandb-summary.json
+2024-06-07 00:09:10,488 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:10,492 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:10,494 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:10,494 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:10,494 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:10,494 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:10,495 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:10,495 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:10,495 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:10,495 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:10,495 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:10,495 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:10,495 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:10,496 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:10,496 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:10,496 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:10,496 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:10,496 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:10,496 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:10,496 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:10,497 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:10,497 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:10,497 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:10,497 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:10,497 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:10,497 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:10,497 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:10,498 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:10,498 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:10,498 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:10,498 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:10,498 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:10,498 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:10,498 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:10,498 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:10,499 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:11,301 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/events.out.tfevents.1717744133.u117040.1081635.0
+2024-06-07 00:09:11,302 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/wandb-summary.json
+2024-06-07 00:09:11,478 WARNING MainThread:1081683 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2024-06-07 00:09:11,511 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:11,512 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:11,512 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:11,513 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:11,513 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:11,513 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:11,513 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:11,513 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:11,513 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:11,513 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:11,514 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:11,514 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:11,514 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:11,514 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:11,514 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:11,514 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:11,514 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:11,515 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:11,515 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:11,515 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:11,515 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:11,515 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:11,515 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:11,515 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:11,516 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:11,516 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:11,516 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:11,516 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:11,516 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:11,516 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:11,516 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:11,516 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:11,517 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:11,517 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:11,517 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:11,517 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:11,517 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:11,517 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:11,517 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:11,641 DEBUG   SenderThread:1081683 [sender.py:send():236] send: telemetry
+2024-06-07 00:09:12,302 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/events.out.tfevents.1717744133.u117040.1081635.0
+2024-06-07 00:09:12,302 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/output.log
+2024-06-07 00:09:12,302 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/wandb-summary.json
+2024-06-07 00:09:14,145 DEBUG   SenderThread:1081683 [sender.py:send():236] send: exit
+2024-06-07 00:09:14,146 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: poll_exit
+2024-06-07 00:09:14,146 INFO    SenderThread:1081683 [sender.py:send_exit():372] handling exit code: 255
+2024-06-07 00:09:14,146 INFO    SenderThread:1081683 [sender.py:send_exit():374] handling runtime: 22
+2024-06-07 00:09:14,148 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:14,148 INFO    SenderThread:1081683 [sender.py:send_exit():380] send defer
+2024-06-07 00:09:14,148 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: poll_exit
+2024-06-07 00:09:14,148 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: defer
+2024-06-07 00:09:14,149 INFO    HandlerThread:1081683 [handler.py:handle_request_defer():163] handle defer: 0
+2024-06-07 00:09:14,149 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: defer
+2024-06-07 00:09:14,149 INFO    SenderThread:1081683 [sender.py:send_request_defer():389] handle sender defer: 0
+2024-06-07 00:09:14,149 INFO    SenderThread:1081683 [sender.py:transition_state():393] send defer: 1
+2024-06-07 00:09:14,149 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: defer
+2024-06-07 00:09:14,149 INFO    HandlerThread:1081683 [handler.py:handle_request_defer():163] handle defer: 1
+2024-06-07 00:09:14,267 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: defer
+2024-06-07 00:09:14,267 INFO    SenderThread:1081683 [sender.py:send_request_defer():389] handle sender defer: 1
+2024-06-07 00:09:14,267 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: poll_exit
+2024-06-07 00:09:14,267 INFO    SenderThread:1081683 [sender.py:transition_state():393] send defer: 2
+2024-06-07 00:09:14,267 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: poll_exit
+2024-06-07 00:09:14,267 DEBUG   SenderThread:1081683 [sender.py:send():236] send: stats
+2024-06-07 00:09:14,268 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: defer
+2024-06-07 00:09:14,268 INFO    HandlerThread:1081683 [handler.py:handle_request_defer():163] handle defer: 2
+2024-06-07 00:09:14,268 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: defer
+2024-06-07 00:09:14,268 INFO    SenderThread:1081683 [sender.py:send_request_defer():389] handle sender defer: 2
+2024-06-07 00:09:14,268 INFO    SenderThread:1081683 [sender.py:transition_state():393] send defer: 3
+2024-06-07 00:09:14,269 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: defer
+2024-06-07 00:09:14,269 INFO    HandlerThread:1081683 [handler.py:handle_request_defer():163] handle defer: 3
+2024-06-07 00:09:14,303 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/output.log
+2024-06-07 00:09:14,303 INFO    Thread-7  :1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/wandb-summary.json
+2024-06-07 00:09:20,509 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: poll_exit
+2024-06-07 00:09:20,509 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: poll_exit
+2024-06-07 00:09:20,509 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: defer
+2024-06-07 00:09:20,509 INFO    SenderThread:1081683 [sender.py:send_request_defer():389] handle sender defer: 3
+2024-06-07 00:09:20,510 INFO    SenderThread:1081683 [sender.py:transition_state():393] send defer: 4
+2024-06-07 00:09:20,510 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: poll_exit
+2024-06-07 00:09:20,510 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: poll_exit
+2024-06-07 00:09:20,510 DEBUG   SenderThread:1081683 [sender.py:send():236] send: history
+2024-06-07 00:09:20,511 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: defer
+2024-06-07 00:09:20,511 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:20,512 INFO    HandlerThread:1081683 [handler.py:handle_request_defer():163] handle defer: 4
+2024-06-07 00:09:20,513 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:20,513 DEBUG   SenderThread:1081683 [sender.py:send():236] send: summary
+2024-06-07 00:09:20,514 INFO    SenderThread:1081683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2024-06-07 00:09:20,514 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: defer
+2024-06-07 00:09:20,514 INFO    SenderThread:1081683 [sender.py:send_request_defer():389] handle sender defer: 4
+2024-06-07 00:09:20,514 INFO    SenderThread:1081683 [sender.py:transition_state():393] send defer: 5
+2024-06-07 00:09:20,514 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: defer
+2024-06-07 00:09:20,514 INFO    HandlerThread:1081683 [handler.py:handle_request_defer():163] handle defer: 5
+2024-06-07 00:09:20,514 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: defer
+2024-06-07 00:09:20,514 INFO    SenderThread:1081683 [sender.py:send_request_defer():389] handle sender defer: 5
+2024-06-07 00:09:20,612 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: poll_exit
+2024-06-07 00:09:20,640 INFO    SenderThread:1081683 [sender.py:transition_state():393] send defer: 6
+2024-06-07 00:09:20,640 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: poll_exit
+2024-06-07 00:09:20,640 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: defer
+2024-06-07 00:09:20,640 INFO    HandlerThread:1081683 [handler.py:handle_request_defer():163] handle defer: 6
+2024-06-07 00:09:20,640 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: defer
+2024-06-07 00:09:20,641 INFO    SenderThread:1081683 [sender.py:send_request_defer():389] handle sender defer: 6
+2024-06-07 00:09:20,641 INFO    SenderThread:1081683 [dir_watcher.py:finish():353] shutting down directory watcher
+2024-06-07 00:09:20,741 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: poll_exit
+2024-06-07 00:09:21,304 INFO    SenderThread:1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/config.yaml
+2024-06-07 00:09:21,305 INFO    SenderThread:1081683 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/wandb-summary.json
+2024-06-07 00:09:21,305 INFO    SenderThread:1081683 [dir_watcher.py:finish():383] scan: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files
+2024-06-07 00:09:21,305 INFO    SenderThread:1081683 [dir_watcher.py:finish():397] scan save: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/wandb-metadata.json wandb-metadata.json
+2024-06-07 00:09:21,305 INFO    SenderThread:1081683 [dir_watcher.py:finish():397] scan save: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/wandb-summary.json wandb-summary.json
+2024-06-07 00:09:21,305 INFO    SenderThread:1081683 [dir_watcher.py:finish():397] scan save: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/config.yaml config.yaml
+2024-06-07 00:09:21,305 INFO    SenderThread:1081683 [dir_watcher.py:finish():397] scan save: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/conda-environment.yaml conda-environment.yaml
+2024-06-07 00:09:21,306 INFO    SenderThread:1081683 [dir_watcher.py:finish():397] scan save: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/diff.patch diff.patch
+2024-06-07 00:09:21,306 INFO    SenderThread:1081683 [dir_watcher.py:finish():397] scan save: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/events.out.tfevents.1717744133.u117040.1081635.0 events.out.tfevents.1717744133.u117040.1081635.0
+2024-06-07 00:09:21,313 INFO    SenderThread:1081683 [dir_watcher.py:finish():397] scan save: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/output.log output.log
+2024-06-07 00:09:21,313 INFO    SenderThread:1081683 [dir_watcher.py:finish():397] scan save: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/requirements.txt requirements.txt
+2024-06-07 00:09:21,317 INFO    SenderThread:1081683 [dir_watcher.py:finish():397] scan save: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/code/aerial_gym/rl_training/cleanrl/ppo_continuous_action.py code/aerial_gym/rl_training/cleanrl/ppo_continuous_action.py
+2024-06-07 00:09:21,318 INFO    SenderThread:1081683 [sender.py:transition_state():393] send defer: 7
+2024-06-07 00:09:21,318 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: poll_exit
+2024-06-07 00:09:21,318 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: defer
+2024-06-07 00:09:21,318 INFO    HandlerThread:1081683 [handler.py:handle_request_defer():163] handle defer: 7
+2024-06-07 00:09:21,318 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: defer
+2024-06-07 00:09:21,319 INFO    SenderThread:1081683 [sender.py:send_request_defer():389] handle sender defer: 7
+2024-06-07 00:09:21,319 INFO    SenderThread:1081683 [file_pusher.py:finish():171] shutting down file pusher
+2024-06-07 00:09:21,419 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: poll_exit
+2024-06-07 00:09:21,419 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: poll_exit
+2024-06-07 00:09:21,522 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: poll_exit
+2024-06-07 00:09:21,523 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: poll_exit
+2024-06-07 00:09:21,624 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: poll_exit
+2024-06-07 00:09:21,624 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: poll_exit
+2024-06-07 00:09:21,701 INFO    Thread-19 :1081683 [upload_job.py:push():138] Uploaded file /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/conda-environment.yaml
+2024-06-07 00:09:21,704 INFO    Thread-21 :1081683 [upload_job.py:push():138] Uploaded file /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/output.log
+2024-06-07 00:09:21,707 INFO    Thread-18 :1081683 [upload_job.py:push():138] Uploaded file /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/config.yaml
+2024-06-07 00:09:21,710 INFO    Thread-22 :1081683 [upload_job.py:push():138] Uploaded file /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/requirements.txt
+2024-06-07 00:09:21,712 INFO    Thread-17 :1081683 [upload_job.py:push():138] Uploaded file /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/files/wandb-summary.json
+2024-06-07 00:09:21,725 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: poll_exit
+2024-06-07 00:09:21,725 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: poll_exit
+2024-06-07 00:09:21,826 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: poll_exit
+2024-06-07 00:09:21,826 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: poll_exit
+2024-06-07 00:09:21,843 INFO    Thread-20 :1081683 [upload_job.py:push():138] Uploaded file /tmp/tmpz_ubvz4cwandb/3ijb3u22-events.out.tfevents.1717744133.u117040.1081635.0
+2024-06-07 00:09:21,927 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: poll_exit
+2024-06-07 00:09:21,927 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: poll_exit
+2024-06-07 00:09:22,028 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: poll_exit
+2024-06-07 00:09:22,028 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: poll_exit
+2024-06-07 00:09:22,043 INFO    Thread-6  :1081683 [sender.py:transition_state():393] send defer: 8
+2024-06-07 00:09:22,044 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: defer
+2024-06-07 00:09:22,044 INFO    HandlerThread:1081683 [handler.py:handle_request_defer():163] handle defer: 8
+2024-06-07 00:09:22,044 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: defer
+2024-06-07 00:09:22,044 INFO    SenderThread:1081683 [sender.py:send_request_defer():389] handle sender defer: 8
+2024-06-07 00:09:22,130 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: poll_exit
+2024-06-07 00:09:22,288 INFO    SenderThread:1081683 [sender.py:transition_state():393] send defer: 9
+2024-06-07 00:09:22,288 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: poll_exit
+2024-06-07 00:09:22,288 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: defer
+2024-06-07 00:09:22,288 INFO    HandlerThread:1081683 [handler.py:handle_request_defer():163] handle defer: 9
+2024-06-07 00:09:22,288 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: defer
+2024-06-07 00:09:22,289 INFO    SenderThread:1081683 [sender.py:send_request_defer():389] handle sender defer: 9
+2024-06-07 00:09:22,289 INFO    SenderThread:1081683 [sender.py:transition_state():393] send defer: 10
+2024-06-07 00:09:22,289 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: defer
+2024-06-07 00:09:22,289 DEBUG   SenderThread:1081683 [sender.py:send():236] send: final
+2024-06-07 00:09:22,289 INFO    HandlerThread:1081683 [handler.py:handle_request_defer():163] handle defer: 10
+2024-06-07 00:09:22,289 DEBUG   SenderThread:1081683 [sender.py:send():236] send: footer
+2024-06-07 00:09:22,289 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: defer
+2024-06-07 00:09:22,289 INFO    SenderThread:1081683 [sender.py:send_request_defer():389] handle sender defer: 10
+2024-06-07 00:09:22,389 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: poll_exit
+2024-06-07 00:09:22,389 DEBUG   SenderThread:1081683 [sender.py:send_request():250] send_request: poll_exit
+2024-06-07 00:09:22,389 INFO    SenderThread:1081683 [file_pusher.py:join():176] waiting for file pusher
+2024-06-07 00:09:22,658 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: sampled_history
+2024-06-07 00:09:22,660 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: get_summary
+2024-06-07 00:09:22,661 DEBUG   HandlerThread:1081683 [handler.py:handle_request():140] handle_request: shutdown
+2024-06-07 00:09:22,661 INFO    HandlerThread:1081683 [handler.py:finish():806] shutting down handler
+2024-06-07 00:09:23,289 INFO    WriterThread:1081683 [datastore.py:close():279] close: /home/drj/workspaces/ladybug/aerial_gym/rl_training/cleanrl/wandb/run-20240607_000850-1c6kg50i/run-1c6kg50i.wandb
+2024-06-07 00:09:23,557 INFO    SenderThread:1081683 [sender.py:finish():1114] shutting down sender
+2024-06-07 00:09:23,557 INFO    SenderThread:1081683 [file_pusher.py:finish():171] shutting down file pusher
+2024-06-07 00:09:23,557 INFO    SenderThread:1081683 [file_pusher.py:join():176] waiting for file pusher
+2024-06-07 00:09:23,559 INFO    MainThread:1081683 [internal.py:handle_exit():80] Internal process exited

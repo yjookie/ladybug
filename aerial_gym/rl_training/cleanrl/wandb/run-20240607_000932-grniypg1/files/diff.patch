@@ -1,0 +1,99 @@
+diff --git a/aerial_gym/rl_training/cleanrl/ppo_continuous_action.py b/aerial_gym/rl_training/cleanrl/ppo_continuous_action.py
+index f4bd00b..f9b905f 100644
+--- a/aerial_gym/rl_training/cleanrl/ppo_continuous_action.py
++++ b/aerial_gym/rl_training/cleanrl/ppo_continuous_action.py
+@@ -45,6 +45,24 @@ from torch.utils.tensorboard import SummaryWriter
+ from aerial_gym.envs import *
+ from aerial_gym.utils import task_registry
+ 
++# <---extra imports for increased functionality--->
++import collections
++import json
++import os
++
++# <---creating the dir where episodic information will be stored---> line 53-66
++
++def check_runs_exists():
++    global runs_path
++    current_dir = os.getcwd()
++    while os.path.basename(current_dir) != 'ladybug':
++        current_dir = os.path.dirname(current_dir)
++    runs_path = os.path.dirname(current_dir)
++    runs_dir = os.path.join(runs_path, 'runs')
++    if not os.path.exists(runs_dir):
++        os.makedirs(runs_dir)
++    runs_path = runs_dir
++    return runs_path
+ 
+ def get_args():
+     custom_parameters = [
+@@ -191,6 +209,7 @@ class Agent(nn.Module):
+ 
+ 
+ if __name__ == "__main__":
++    runs_path = check_runs_exists() 
+     args = get_args()
+ 
+ 
+@@ -207,7 +226,7 @@ if __name__ == "__main__":
+             monitor_gym=True,
+             save_code=True,
+         )
+-    writer = SummaryWriter(f"runs/{run_name}")
++    writer = SummaryWriter(f"{runs_path}/{run_name}")
+     writer.add_text(
+         "hyperparameters",
+         "|param|value|\n|-|-|\n%s" % ("\n".join([f"|{key}|{value}|" for key, value in vars(args).items()])),
+@@ -260,6 +279,15 @@ if __name__ == "__main__":
+     next_done = torch.zeros(args.num_envs, dtype=torch.float).to(device)
+     num_updates = args.total_timesteps // args.batch_size
+ 
++    # <---the following is the initialization for the DS used for storing episodic information---> lines 263-270
++    # Initialize storage for the current episode observations
++    current_episode_obs = [collections.deque() for _ in range(args.num_envs)]
++    last_episode_obs = [None for _ in range(args.num_envs)]
++
++    # Initialize storage for the current episode observations
++    current_episode_obs = [collections.deque() for _ in range(args.num_envs)]
++    last_episode_obs = [None for _ in range(args.num_envs)]
++
+     if not args.play:
+         for update in range(1, num_updates + 1):
+             # Annealing the rate if instructed to do so.
+@@ -280,8 +308,20 @@ if __name__ == "__main__":
+                 actions[step] = action
+                 logprobs[step] = logprob
+ 
++                # Store current observations
++                # <---this is to store episodic information for plotting---> lines 283-286
++                for idx in range(args.num_envs):
++                    current_episode_obs[idx].append(next_obs[idx].clone())
++
+                 # TRY NOT TO MODIFY: execute the game and log data.
+                 next_obs, rewards[step], next_done, info = envs.step(action)
++
++                # <---Save the last episode's observations---> lines 290-294
++                for idx, done in enumerate(next_done):
++                    if done:
++                        last_episode_obs[idx] = list(current_episode_obs[idx])
++                        current_episode_obs[idx].clear()
++
+                 if 0 <= step <= 2:
+                     for idx, d in enumerate(next_done):
+                         if d:
+@@ -387,7 +427,14 @@ if __name__ == "__main__":
+             # save the model levery 50 updates
+             if update % 50 == 0:
+                 print("Saving model.")
+-                torch.save(agent.state_dict(), f"runs/{run_name}/latest_model.pth")
++                torch.save(agent.state_dict(), f"{runs_path}/{run_name}/latest_model.pth")
++
++        # <---this is to store the episodic information---> lines 403-408
++        # At the end of training, convert tensors to lists and save the last episode observations
++        last_episode_obs = [[obs.tolist() for obs in env_obs] if env_obs is not None else None for env_obs in last_episode_obs]
++        observations_file = f"{runs_path}/{run_name}/last_episode_observations.json"
++        with open(observations_file, 'w') as f:
++            json.dump(last_episode_obs, f)
+ 
+     else:
+         for step in range(0, 5000000):

@@ -1,0 +1,30 @@
+{
+    "os": "Linux-5.4.0-172-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.12",
+    "heartbeatAt": "2024-06-07T07:08:51.360389",
+    "startedAt": "2024-06-07T07:08:50.680293",
+    "docker": null,
+    "gpu": "NVIDIA RTX A4000",
+    "gpu_count": 4,
+    "cpu_count": 64,
+    "cuda": null,
+    "args": [
+        "--track",
+        "--wandb-project-name",
+        "demo",
+        "--wandb-entity",
+        "mayank1507"
+    ],
+    "state": "running",
+    "program": "ppo_continuous_action.py",
+    "codePath": "aerial_gym/rl_training/cleanrl/ppo_continuous_action.py",
+    "git": {
+        "remote": "https://github.com/yjookie/ladybug.git",
+        "commit": "5cc27b79cbf3caa142d63973faab0280bede5e30"
+    },
+    "email": "mayank.mor@plaksha.edu.in",
+    "root": "/home/drj/workspaces/ladybug",
+    "host": "u117040",
+    "username": "drj",
+    "executable": "/home/drj/.conda/envs/rlgpu/bin/python3"
+}
