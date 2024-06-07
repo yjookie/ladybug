@@ -1,3 +1,6 @@
+# Changes on top of Aerial Gym Simulator
+Please go through the readme file after this heading and then get back to this!
+
 # Aerial Gym Simulator
 
 This repository provides the environments used to train quadrotor platforms to learn to fly and navigate cluttered environments using learning-based methods. The environments are built upon the underlying NVIDIA Isaac Gym simulator. We provide simplified quadrotor models with high-level geometric controllers that operate on the GPU to provide parallelization for the simultaneous control of thousands of multirotor vehicles.
